@@ -37,6 +37,7 @@ public class HistorySampleController implements Initializable {
         if (event.getCode() == ENTER) {
             if (!textField.getText().isEmpty()) {
                 updateKeywords(textField.getText());
+                textField.clear();
             }
         }
     }

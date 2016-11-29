@@ -10,7 +10,7 @@ public class MyApplication extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        AnchorPane root = FXMLLoader.load(getClass().getResource("/fxml/TextFieldHistorySample.fxml"));
+        AnchorPane root = FXMLLoader.load(getClass().getResource("/fxml/HistorySample.fxml"));
         
         Scene scene = new Scene(root);
         stage.setTitle("TextField History Sample");
