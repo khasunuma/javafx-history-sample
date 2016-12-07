@@ -17,4 +17,18 @@
       <version>${coppermine-tools.version}</version>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>coppermine-releases</id>
+      <name>coppermine.jp Maven Repository</name>
+      <url>http://dev.haswell.jp:8081/repository/maven-releases/</url>
+    </repository>
+    <snapshotRepository>
+      <uniqueVersion>true</uniqueVersion>
+      <id>coppermine-snapshots</id>
+      <name>coppermine.jp Maven Repository</name>
+      <url>http://dev.haswell.jp:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
