@@ -13,7 +13,7 @@
   <dependencies>
     <dependency>
       <groupId>jp.coppermine.tools</groupId>
-      <artifactId>coppermine-tools-history</artifactId>
+      <artifactId>coppermine-tools-javafx-history</artifactId>
       <version>${coppermine-tools.version}</version>
     </dependency>
   </dependencies>
