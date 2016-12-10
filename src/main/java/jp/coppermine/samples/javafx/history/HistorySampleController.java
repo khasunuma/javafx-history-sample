@@ -9,10 +9,10 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.TextField;
 import javafx.scene.input.KeyEvent;
-import jp.coppermine.tools.history.FileHistory;
-import jp.coppermine.tools.history.History;
-import jp.coppermine.tools.javafx.history.FileHistoryOperation;
-import jp.coppermine.tools.javafx.history.HistoryView;
+import jp.coppermine.poortoys.history.FileHistory;
+import jp.coppermine.poortoys.history.History;
+import jp.coppermine.poortoys.javafx.history.FileHistoryOperation;
+import jp.coppermine.poortoys.javafx.history.HistoryView;
 
 public class HistorySampleController implements Initializable, FileHistoryOperation {
 
